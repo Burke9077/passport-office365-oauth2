@@ -1,0 +1,43 @@
+{
+  "name": "passport-office365-oauth2",
+  "version": "0.0.1",
+  "description": "Passport strategy for authenticating with Azure AD using the OAuth 2.0 protocol.",
+  "keywords": [
+    "passport",
+    "waad",
+    "oauth",
+    "azure active directory",
+    "azure ad",
+    "office 365",
+    "office365",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Burke9077/passport-office365-oauth2.git"
+  },
+  "bugs": {
+    "url": "http://github.com/Burke9077/passport-office365-oauth2/issues"
+  },
+  "author": {
+    "name": "Burke9077",
+    "email": "burke9077@gmail.com",
+    "url": "http://burke9077.com/"
+  },
+  "license": "(MIT OR Apache-2.0)",
+  "main": "./lib/passport-office365-oauth2",
+  "dependencies": {
+    "passport-oauth": "1.0.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec test/*.test.js"
+  },
+  "homepage": "https://github.com/Burke9077/passport-office365-oauth2"
+}
